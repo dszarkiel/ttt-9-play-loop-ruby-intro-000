@@ -37,7 +37,9 @@ end
 
 # Define your play method below
 def play(board)
-  while board = ["X","X","X","X","X","X","X","X","X"]
-  turn(board)
-end
-end
+  loop do 
+    turn(board)
+    if board = ["X","X","X","X","X","X","X","X","X"]
+      break
+    end
+  end
