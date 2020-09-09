@@ -41,5 +41,6 @@ def play(board)
   turn(board)
   if board == ["X","X","X","X","X","X","X","X","X"]
     break
-  end
+   end
+ end
 end
