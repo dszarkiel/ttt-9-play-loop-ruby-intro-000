@@ -37,7 +37,7 @@ end
 
 # Define your play method below
 def play(board)
-  loop do 
+  loop do
     turn(board)
     if board = ["X","X","X","X","X","X","X","X","X"]
       break
